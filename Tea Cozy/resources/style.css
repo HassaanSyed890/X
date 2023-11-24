@@ -1,0 +1,147 @@
+body {
+    color: seashell;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    background-color: black;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+.navi {
+    display: inline-flex;
+    width: 24%;
+    margin-left: 64%;
+    justify-content: space-between;
+}
+
+header img {
+    background-color: black;
+    margin-left: 10px;
+    height: 50px;
+}
+
+
+header a{
+    text-decoration: underline;
+    font-family: "Helvetica";
+    color: seashell;
+    background-color: black;
+    font-size: 22px ;
+    opacity: 0.9;
+}
+
+h2 {
+    font-family: "Helvetica";
+    color: seashell;
+    font-size: 28px;
+}
+
+h4 {
+    font-family: "Helvetica";
+    color: seashell;
+    font-size: 18px;
+    background-color: black;
+}
+
+h5{
+    font-family: "Helvetica";
+    color: seashell;
+    font-size: 16px;
+    background-color: black;
+}
+
+#c1{
+    position: relative;
+    left: 10%;
+    padding-top: 69px;
+    height: 700px;
+    width: 1200px;
+    background: url("img-mission-background.jpg") center/cover no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    font-size: 22px;
+}
+
+.mission_text {
+    opacity: 0.9;
+    background-color: black;
+    width: 1200px;
+}
+
+#tea_quote {
+    padding-top: 100px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.c2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 170px;
+    padding-bottom: 100px;
+}
+
+.tea_text {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#c3 {
+    position: relative;
+    left: 10%;
+    bottom: 10%;
+    height: 500px;
+    width: 1200px;
+    background: url("img-locations-background.jpg") center/cover no-repeat;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+}
+
+.location_tag {
+    position: relative;
+    width: fit-content;
+    left: 45%;
+    top: 15%;
+}
+
+.sub_container {
+    background-color: black;
+    padding: 15px;
+    border-radius: 2vw;
+    width: 300px;
+    max-width: 80%;
+    margin: 20px;
+}
+
+div.sub_container {
+    position: relative;
+    top: 40px;
+}
+
+#c4 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.copyright {
+    margin-left: 20px;
+}

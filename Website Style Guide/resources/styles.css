@@ -1,0 +1,210 @@
+@font-face {
+    font-family: Agbalumo-Regular;
+    src: url("Agbalumo-Regular.ttf");
+}
+
+@font-face {
+    font-family: KdamThmorPro-Regular;
+    src: url("KdamThmorPro-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url("Ubuntu-Regular.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url("Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Light;
+    src: url("Ubuntu-Light.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-Medium;
+    src: url("Ubuntu-Medium.ttf");
+}
+
+body{
+    background-color: aliceblue;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:visited{
+    color: aliceblue;
+}
+
+header h1 {
+    position:relative;
+    left: 50px;
+    width: 100%;
+    text-align: center;
+    font-family: "Agbalumo-Regular";
+    font-size: 50px;
+}
+
+ul.nav {
+    height: 32px;
+    text-align: center;
+    max-width: 100%;
+    background-color: rgb(21, 111, 25);
+}
+
+.nav li {
+    padding: 0px 80px;
+    font-family: "Ubuntu-Medium";
+    font-size: 25px;
+    display: inline;
+    color: aliceblue;
+}
+
+#Colors h2 {
+    position: relative;
+    left: 28%;
+    top: 5%;
+    font-family: "KdamThmorPro-Regular";
+    font-size: 80px;
+    letter-spacing: 100px;
+    margin-bottom: -10px;
+}
+
+#Colors h4 {
+    position: relative;
+    top: 15%;
+    left: 45%;
+    font-family: "KdamThmorPro-Regular";
+    font-size: 18px;
+}
+
+.Z,
+.L,
+.U,
+.N,
+.S,
+.C {
+    position: relative;
+    text-align: center;
+    font-family: "KdamThmorPro-Regular";
+}
+
+.Z{
+    right: 20%;
+    top: 10%;
+    color: rgb(21, 111, 25);
+}
+
+.L{
+    right: 11%;
+    top: 15%;
+    color: rgba(209, 41, 41);
+}
+.N {
+    right: 2%;
+    color: rgb(242, 147, 75);
+}
+
+.U {
+    left: 7%;
+    color: rgb(169, 116, 36);
+}
+
+.S {
+    left: 16%;
+    color: rgb(246, 224, 25);
+}
+
+.C {
+    left: 25%;
+    color: rgb(236, 50, 236);
+}
+
+.Zoro {
+    color: rgb(21, 111, 25);
+}
+
+.Luffy {
+    color: rgba(209, 41, 41);
+}
+
+.Nami {
+    color: rgb(242, 147, 75);
+}
+
+.Usopp {
+    color: rgb(169, 116, 36);
+}
+
+.Sanji {
+    color: rgb(246, 224, 25);
+}
+
+.Chopper {
+    color: rgb(236, 50, 236);
+}
+
+#Fonts h2 {
+    font-size: 30px;
+    font-family: "KdamThmorPro-Regular";
+    text-align: center;
+}
+
+table {
+    position: relative;
+    left: 39%;
+}
+
+th {
+    font-size: 20px;
+}
+
+tr {
+    line-height: 3;
+}
+
+.Agbalumo tr {
+    font-family: "Agbalumo-Regular";
+}
+
+.KdamThmorPro tr {
+    font-family: "KdamThmorPro-Regular";
+}
+
+.Ubuntu th {
+    font-family: "Ubuntu-Medium";
+}
+
+.Light {
+    font-family: "Ubuntu-Light";
+}
+
+.Reg {
+    font-family: "Ubuntu-Regular";
+}
+
+.Med {
+    font-family: "Ubuntu-Medium";
+}
+
+.Bold {
+    font-family: "Ubuntu-Bold";
+}
+
+#Text-Decorations h2 {
+    font-size: 30px;
+    font-family: "KdamThmorPro-Regular";
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    font-family: "Ubuntu-Regular";
+    text-align: center;
+    line-height: 1;
+}
